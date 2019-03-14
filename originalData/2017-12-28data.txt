@@ -1,0 +1,12 @@
+user_ip=111.206.221.51&whiteScreenTime=323&readyTime=2364&allloadTime=2594&mobile=ios&nowTime=1514392410173
+
+user_ip=183.14.133.173&whiteScreenTime=662&readyTime=908&allloadTime=1109&mobile=webKit&nowTime=1514393271375
+
+user_ip=220.115.23.13&whiteScreenTime=703&readyTime=952&allloadTime=1327&mobile=gecko&nowTime=1514395012424
+
+user_ip=210.176.124.105&whiteScreenTime=211&readyTime=1207&allloadTime=1355&mobile=iPhone&nowTime=1514396470450
+
+user_ip=111.206.221.52&whiteScreenTime=323&readyTime=2364&allloadTime=2594&mobile=ios&nowTime=1514396470451
+
+
+

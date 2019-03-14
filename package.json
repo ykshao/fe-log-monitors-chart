@@ -1,0 +1,27 @@
+{
+  "name": "mcharts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "server": "node express.js",
+    "client": "cd charts && node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "nodemailer": "^4.4.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hua1995116/mcharts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hua1995116/mcharts/issues"
+  },
+  "homepage": "https://github.com/hua1995116/mcharts#readme"
+}
