@@ -1,56 +1,36 @@
 # fe-log-
 
+## 效果截图
+![效果截图](http://m.qpic.cn/psb?/V13IJOOu3WKJbc/I*DS8iNNJySS89YYUYXkEzmsAJJHlVzQBoK300.OkBU!/b/dFMBAAAAAAAA&bo=Mgg4BAAAAAADByQ!&rf=viewer_4)
+![效果截图](http://m.qpic.cn/psb?/V13IJOOu3WKJbc/4m9MvxQoOlsrYdojjaOK9rnB5S.hK.dtl382Kf9NJ0M!/b/dEgBAAAAAAAA&bo=bAg4BAAAAAADF2o!&rf=viewer_4)
+![效果截图](http://m.qpic.cn/psb?/V13IJOOu3WKJbc/8nYIG7RVVQOI.b00LISEK.k8hRMqHjnZ498ZNxwk0ls!/b/dFQBAAAAAAAA&bo=SAg4BAAAAAADJ34!&rf=viewer_4)
 ## 环境
 
+```
 node.js >= 6.0.0
-
 redis >= 2.8.0
-
-redis下载地址： https://redis.io/download
-
-redis启动地址： https://www.cnblogs.com/shoren/p/redis.html
-
 ```
 
-进入redis目录
-
-winodws redis/64bit
-
-mac redis/etc
-
-一个窗口
-
-redis-server redis.conf 
-
-另启一个窗口
-
-redis-cli -h 127.0.0.1 -p 6379
-
-
-```
 ## 功能
 
-- [x] 监控载入时间
+```
+[1] 监控载入时间
 
-- [x] 监控错误量
+[2] 监控错误量
 
-- [x] 监控浏览器分布情况
+[3] 监控浏览器分布情况
 
-- [x] 监控载入时间数据异常发送邮件
+[4] 监控载入时间数据异常发送邮件
+```
 
 ## 第一步
 
-打开监控对象
 
 ```
-
-git clone https://github.com/hua1995116/mcharts.git
-
-cd mcharts
+开启监控服务端
 
 npm install 
-
-node express.js
+npm run server
 
 ```
 
@@ -59,13 +39,11 @@ node express.js
 
 ## 第二步
 
-可视化系统
 
 ```
+开启客户端可视化系统
 
-cd charts
-
-node index.js
+npm run client
 
 ```
 
